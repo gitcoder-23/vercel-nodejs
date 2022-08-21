@@ -8,4 +8,8 @@ const userController = require('../controllers/users/users.controller');
 router.get('/api/user/linkedInData', userController.linkedInData);
 
 
+const scheduleController = require('../controllers/users/schedules.controller');
+router.get('/api/user/scheduleData', scheduleController.scheduleData);
+
+
 module.exports = router;
