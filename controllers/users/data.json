@@ -12,10 +12,10 @@
       "productData":  {
         "2P1": { "shifts": 12, "die": 1, "demand": 120, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 28, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData":  [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6"],
         ["M1",	"2P1",	"2P1",	"2P1",	"",	"2P1",	"2P1"],
@@ -30,10 +30,10 @@
       "productData":  {
         "2P2": { "shifts": 12, "die": 1, "demand": 120, "inventory": 100 }
       },
-      "machineData": {
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 28, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M2", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData":  [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6"],
         ["M2",	"2P2",	"2P2",	"2P2",	"",	"2P2",	"2P2"],
@@ -44,10 +44,10 @@
       "productData":  {
         "2P3": { "shifts": 12, "die": 1, "demand": 120, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 28, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData":  [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6"],
         ["M1",	"2P3",	"2P3",	"2P3",	"",	"2P3",	"2P3"],
@@ -59,11 +59,11 @@
         "2P1": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }, 
         "2P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData":  [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6"],
         ["M1",	"2P1",	"2P2",	"2P2",	"",	"2P1",	""],
@@ -76,11 +76,11 @@
         "2P1": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }, 
         "2P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData":  [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6"],
         ["M1",	"2P1",	"2P3",	"2P3",	"",	"2P3",	""],
@@ -93,11 +93,11 @@
         "2P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }, 
         "2P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData":  [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6"],
         ["M1",	"2P2",	"2P3",	"2P3",	"",	"2P2",	""],
@@ -111,11 +111,11 @@
         "2P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }, 
         "2P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 100, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 120, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 200, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData":  [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6"],
         ["M1",	"2P1",	"2P2",	"2P2",	"2P3",	"2P2",	"2P2"],
@@ -129,10 +129,10 @@
       "productData":  {
         "5P1": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15"],
         ["M1",	"5P1",	"5P1",	"5P1",	"",	"5P1",	"5P1",	"",	"5P1",	"5P1",	"5P1",	"",	"5P1",	"5P1",	"5P1",	""],
@@ -143,10 +143,10 @@
       "productData":  {
         "5P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M2", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15"],
         ["M2",	"5P2",	"5P2",	"5P2",	"",	"5P2",	"5P2",	"",	"5P2",	"5P2",	"5P2",	"",	"5P2",	"5P2",	"5P2",	""],
@@ -157,10 +157,10 @@
       "productData":  {
         "5P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15"],
         ["M1",	"5P3",	"5P3",	"5P3",	"",	"5P3",	"5P3",	"",	"5P3",	"5P3",	"5P3",	"",	"5P3",	"5P3",	"5P3",	""],
@@ -172,11 +172,11 @@
         "5P1": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 },
         "5P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 100, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 120, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 200, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15"],
         ["M1",	"5P1",	"5P1",	"5P1",	"",	"5P1",	"5P1",	"",	"5P1",	"5P1",	"5P1",	"",	"5P1",	"5P1",	"5P1",	""],
@@ -189,11 +189,11 @@
         "5P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 },
         "5P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 100, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 120, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 200, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15"],
         ["M1",	"5P3",	"5P3",	"5P3",	"",	"5P3",	"5P3",	"",	"5P3",	"5P3",	"5P3",	"",	"5P3",	"5P3",	"5P3",	""],
@@ -206,11 +206,11 @@
         "5P1": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 },
         "5P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 100, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 120, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 200, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15"],
         ["M1",	"5P1",	"5P1",	"5P1",	"",	"5P3",	"5P3",	"",	"5P3",	"5P3",	"5P1",	"",	"5P1",	"5P3",	"5P3",	""],
@@ -224,11 +224,11 @@
         "5P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 },
         "5P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 200, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15"],
         ["M1",	"5P1",	"5P1",	"5P1",	"",	"5P1",	"5P1",	"",	"5P1",	"5P3",	"5P3",	"",	"5P3",	"5P3",	"5P3",	""],
@@ -256,10 +256,10 @@
       "productData":  {
         "7P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M2", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15", "Day6 - S16", "Day6 - S17", "Day6 - S18", "Day7 - S19", "Day7 - S20", "Day7 - S21"],
         ["M2",	"7P2",	"7P2",	"7P2",	"",	"7P2",	"7P2",	"",	"7P2",	"7P2",	"7P2",	"",	"7P2",	"7P2",	"7P2",	"",	"7P2",	"7P2",	"7P2",	"",	"7P2",	"7P2"],
@@ -270,10 +270,10 @@
       "productData":  {
         "7P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15", "Day6 - S16", "Day6 - S17", "Day6 - S18", "Day7 - S19", "Day7 - S20", "Day7 - S21"],
         ["M1",	"7P3",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"7P3",	"",	"7P3",	"7P3"],
@@ -285,11 +285,11 @@
         "7P1": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 },
         "7P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15", "Day6 - S16", "Day6 - S17", "Day6 - S18", "Day7 - S19", "Day7 - S20", "Day7 - S21"],
         ["M1",	"7P1",	"7P1",	"7P1",	"",	"7P1",	"7P1",	"",	"7P1",	"7P1",	"7P1",	"",	"7P1",	"7P1",	"7P1",	"",	"7P1",	"7P1",	"7P1",	"",	"7P1",	"7P1"],
@@ -302,11 +302,11 @@
         "7P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 },
         "7P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15", "Day6 - S16", "Day6 - S17", "Day6 - S18", "Day7 - S19", "Day7 - S20", "Day7 - S21"],
         ["M1",	"7P3",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"7P3",	"",	"",	""],
@@ -319,11 +319,11 @@
         "7P1": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 },
         "7P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15", "Day6 - S16", "Day6 - S17", "Day6 - S18", "Day7 - S19", "Day7 - S20", "Day7 - S21"],
         ["M1",	"7P1",	"7P1",	"7P1",	"",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"7P3",	"",	"7P1",	"7P1",	"7P1",	"",	"7P3",	"7P3",	"7P3",	"",	"7P1",	"7P1"],
@@ -337,11 +337,11 @@
         "7P2": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 },
         "7P3": { "shifts": 12, "die": 1, "demand": 12, "inventory": 100 }
       },
-      "machineData": {
-        "M1": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M2": { "ProductionPershift": 12, "TotalMachineCounts": 1 },
-        "M3": { "ProductionPershift": 12, "TotalMachineCounts": 1 }
-      },
+      "machineData": [
+        {"name": "M1", "ProductionPershift": 12, "TotalMachineCounts": 1 },
+        {"name": "M2", "ProductionPershift": 28, "TotalMachineCounts": 1 },
+        {"name": "M3", "ProductionPershift": 28, "TotalMachineCounts": 1 }
+      ],
       "tableData": [
         ["Machine / Shift",	"Day1 - S1",	"Day1 - S2",	"Day1 - S3",	"Day2 - S4",	"Day2 - S5",	"Day2 - S6", "Day3 - S7", "Day3 - S8", "Day3 - S9", "Day4 - S10", "Day4 - S11", "Day4 - S12", "Day5 - S13", "Day5 - S14", "Day5 - S15", "Day6 - S16", "Day6 - S17", "Day6 - S18", "Day7 - S19", "Day7 - S20", "Day7 - S21"],
         ["M1",	"7P1",	"7P1",	"7P1",	"",	"7P3",	"7P3",	"",	"7P1",	"7P1",	"7P1",	"",	"7P3",	"7P3",	"7P3",	"",	"7P3",	"7P3",	"7P3",	"",	"7P1",	"7P1"],
