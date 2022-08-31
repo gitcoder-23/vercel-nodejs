@@ -9,7 +9,8 @@ var https = require('https');
 module.exports.linkedInData = (req, res, next) => {
 	const token = 'AQXO7rB4sg1KEQ7GbaGeOOeoFCKvcIPv98J4qYSg6DNtSBpEIoO7iJVdVU0oDkosTTJKW_rE2LctGP5MKXgRm18U_l-WjGqiZg6tCnjgsL1D__7UnbYpXTcKbDrmqhWdpPNg2S1BHiIH00XaHs_jOSRNohfy66KpEfMiFXU0s54V1rbTWIWDSyeV-mdEewEXMrX_5ZHn6x4dBgXFZnSlCECO8GLTqe_HzhIYasclbrlC0w3S88Nx1tunfCTCF1bsLbaU7Mlt9nn9ZjBdJRGLlP6ueCJEmd4TLaBS-OnOUUHjL8vqjC7LpkeQ_I6pRoEFCFaummXF1acj_rDP3k1poOApLBo62A';
 	
-	const path = 'https://api.linkedin.com/v2/shares?q=owners&owners=urn:li:organization:82488034&sharesPerOwner=100&count=25&start=0';
+	// const path = 'https://api.linkedin.com/v2/shares?q=owners&owners=urn:li:organization:82488034&sharesPerOwner=100&count=25&start=0';
+	const path = 'https://api.linkedin.com/v2/organizations/74282752';
 	//const path = '/v2/me';
 
 	var result ;
